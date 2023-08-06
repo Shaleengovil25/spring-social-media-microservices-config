@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+       - id: users-service
+         uri: lb://users-service
+         predicates:
+          - Path=/users/**
+
+       - id: posts-service
+         uri: lb://posts-service
+         predicates:
+          - Path=/posts/**
+
+       - id: notifications-service
+         uri: lb://notifications-service
+         predicates:
+          - Path=/notifications/**
+server:
+  port: 9000

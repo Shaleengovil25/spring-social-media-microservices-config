@@ -1,0 +1,9 @@
+application:
+  name: notifications-service
+server:
+  port: 9091
+db:
+  connection: connection-string-notification-dev
+my:
+  greeting: hello
+

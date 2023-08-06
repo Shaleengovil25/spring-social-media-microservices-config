@@ -1,0 +1,9 @@
+application:
+  name: notifications-service
+server:
+  port: 8081
+db:
+  connection: connection-string-notification-default
+my:
+  greeting: hello
+

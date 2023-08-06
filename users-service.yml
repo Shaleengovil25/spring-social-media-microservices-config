@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: users-service
+server:
+  port: 8080
+db:
+  connection: connection-string-user-default

@@ -1,0 +1,6 @@
+application:
+  name: posts-service
+server:
+  port: 9092
+db:
+  connection: connection-string-post-dev

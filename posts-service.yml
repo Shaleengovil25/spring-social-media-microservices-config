@@ -1,0 +1,6 @@
+application:
+  name: posts-service
+server:
+  port: 8082
+db:
+  connection: connection-string-post-default
