@@ -1,6 +1,8 @@
 spring:
   application:
     name: posts-service
+application:
+  name: posts-service-renamed
 server:
   port: 8082
 db:
