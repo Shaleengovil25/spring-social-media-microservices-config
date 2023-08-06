@@ -1,6 +1,6 @@
 spring:
   application:
-    name: posts-service
+    name: posts-service-dev
 server:
   port: 9092
 db:
