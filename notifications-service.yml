@@ -1,6 +1,6 @@
 spring:
-  application:
-    name: notifications-service
+#  application:
+#    name: notifications-service
 server:
   port: 8081
 db:
