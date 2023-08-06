@@ -1,4 +1,4 @@
 server:
   port: 9092
 db:
-  connection: connection-string-post-dev-refreshed
+  connection: connection-string-post-dev
