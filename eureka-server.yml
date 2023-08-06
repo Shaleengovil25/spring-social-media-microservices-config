@@ -6,4 +6,4 @@ eureka:
     eviction-interval-timer-in-ms: '60000'
     enable-self-preservation: 'false'
 server:
-  port: 8888
+  port: 8761
